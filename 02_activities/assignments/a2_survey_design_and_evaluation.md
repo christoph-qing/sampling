@@ -40,26 +40,29 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the survey is to find relationship between age and music taste. First aim is to see how music taste different for different age groups, second aim is to see how music taste changes for individuals as they ages.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population is individual who listened to music.
+Sampling frame is accessible individuals who have music taste history that is trackable. Question 4 can be used to filter.
+Sampling units are individuals that agree to fill in the survey.
+Observational units are also individuals, each survey is one observational unit. Or an individual at a certain age.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
+1. What is your age? (Please fill in a number)
+2. How old approximately do you remember start forming a preference for music types? (Please fill in a number)
+3. What's your current top three music type? (Please rank at most 3 types from the following: R&B Rock Hip-hop Electronic Jazz Others, please specify)
+4. Has your music taste ever changed? (Please answer Yes or No)
+5. If you answered Yes in question 4, what is your rank at an earlier age? And what age is that? Feel free to fill in all timepoints that you remembered there is a change in your preferences. (Please answer in the format: Age, Rank 1, Rank 2, Rank 3)
+6. Do you think age will influence music taste in general?
 7. write your question here... (optional)
 8. write your question here... (optional)
 9. write your question here... (optional)
@@ -71,7 +74,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type - stratified household survey， one respondent per household， each of the ten provinces were divided into strata
+2. Sample size - 16，149
+3. Target population - included all persons 15 years of age and older in Canada, excluding: Residents of the Yukon, Northwest Territories, and Nunavut; Full-time residents of institutions.
+4. Sampling frame - telephone number in use available to Statistics Canada, and the Address Register (AR): List of all dwellings within the ten provinces
+5. Survey mode(s) - self-completed questionnaire (rEQ) as well as via computer assisted telephone interviews (iEQ)
+6. Timeline - September to December, 2018
+7. Response rate - 41.9%
+8. Weights - final person weight WGHT_PER, account for probabilities, non-response, rejective sampling etc
+9. Data processing - output was encrypted and transmitted electronically to Ottawa. Coding followed standard classification systems used by the General Social Survey and Statistics Canada’s harmonized content program. Organizations in the volunteering and giving sections were coded following the International Classification of Nonprofit Organizations (ICNPO).
+10. Cleaning, imputation, etc - Raw survey files were verified to remove duplicate, out-of-scope, and non-response records. Missing or invalid data from item and partial non-response were addressed
+11. Sources of error - Non-sampling errors mainly arise from total, item, and partial non-response, which were addressed through weighting adjustments and donor or mean imputation to preserve complete and internally consistent records, including income data linked to tax files where available.
+12. Limitations, known biases, etc - Survey estimates are based on a sample and may differ from a full census. Non-sampling errors such as interviewer misunderstandings, data entry errors, or processing issues can also occur.
+13. Link to documentation and any additional sources used - https://www150.statcan.gc.ca/n1/pub/45-25-0001/index-eng.htm#a5 General Social Survey, Cycle 33: Giving, Volunteering and Participating – Public Use Microdata File User Guide
 ```
 
 ## Rubric
